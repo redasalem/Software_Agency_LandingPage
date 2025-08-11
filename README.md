@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+    Software Agency Landing Page
 
-## Getting Started
+🚀 Built with Next.js 15, TypeScript & Tailwind CSS v4
 
-First, run the development server:
+📌 Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a high-performance landing page tailored for modern software agencies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Designed with a clean, minimal, and conversion-focused layout, it aims to deliver a 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+smooth user experience while leaving a strong first impression.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tech Stack
+⚡ Next.js 15 – Server-side rendering, routing, and SEO optimization.
 
-## Learn More
+🛡 TypeScript – Type-safe development for reliability and maintainability.
 
-To learn more about Next.js, take a look at the following resources:
+🎨 Tailwind CSS v4 – Utility-first styling for fast, responsive, and elegant design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🎯 Core Features
+Clean, modern, and visually appealing interface.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Fully responsive design for all devices.
 
-## Deploy on Vercel
+Optimized UX for improved engagement and conversions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Easily customizable sections for flexibility.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🛠 Current Progress
+ Project structure setup.
+
+ Development environment configured (Next.js + Tailwind).
+
+ Main sections design (Hero, Services, About, Contact).
+
+ Smooth animations and micro-interactions.
+
+🎨 UI/UX Flow
+css
+Copy
+Edit
+[ Hero Section ]
+       ↓
+[ Services ]
+       ↓
+[ About Company ]
+       ↓
+[ Contact / Call-To-Action ]
+Color palette and typography are carefully selected to align with the branding of modern tech companies.
+
+📅 Next Steps
+Complete remaining sections.
+
+Add illustrations and iconography.
+
+Optimize performance and test responsiveness.
+
