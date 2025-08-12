@@ -1,4 +1,5 @@
 "use client"
+import ThemeToggler from '@/components/Helper/ThemeToggler'
 import { Navlinks } from '@/constant/constant'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
@@ -25,7 +26,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className={`transition-all ${navBg?"bg-blue-900 shadow-md":'fixed'} duration-200 h-[12vh] z-[100] fixed w-full bg-blue-500`}>
+    <div className={`transition-all ${navBg?"bg-blue-900 shadow-md":'fixed'} duration-200 h-[12vh] z-[100] fixed w-full`}>
         <div className='flex h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
             {/* logo */}
             <div className='flex items-center space-x-2'>
@@ -59,6 +60,11 @@ useEffect(() => {
                      <span className='relative'>Create Account</span>
                 </a>
                 {/* theme toggler */}
+
+                <ThemeToggler/>
+
+                 {/* theme toggler */}
+
                 <HiBars3BottomRight
                 onClick={openNav}
                  className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
