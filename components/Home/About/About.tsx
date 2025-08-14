@@ -44,7 +44,7 @@ const About = () => {
                     </div>
                     </div>
                       <div className='mt-12'>
-                   <a href="#" className='w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-colors font-semibold duration-300 
+                   <a href="https://www.tredence.com/blog/data-driven-decision-making-using-data-science-insights" target='_blank' className='w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-colors font-semibold duration-300 
                   bg-pink-500 rounded-full uppercase hover:bg-blue-600 ease px-9 md:w-auto'>About More</a>
                  </div>
 
