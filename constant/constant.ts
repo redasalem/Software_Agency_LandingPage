@@ -21,8 +21,8 @@ export const Navlinks = [
     },
       {
         id:5,
-        url:'#Blog',
-        label:'Blog',
+        url:'#Testmonials',
+        label:'Testimonials',
     },
      {
         id:6,
