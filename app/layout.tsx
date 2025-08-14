@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressContentEditableWarning>
       <body
-        className={`${font.className} antialiased`}
+        className={`${font.className} antialiased scroll-smooth`}
       >
         <Provider>
 

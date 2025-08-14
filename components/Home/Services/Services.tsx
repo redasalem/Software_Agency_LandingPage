@@ -3,7 +3,7 @@ import ServicesCard from './ServicesCard'
 
 const Services = () => {
   return (
-    <div className='py-16 '>
+    <div className='py-16' id='Services'>
       <div className='w-[80%] mx-auto'>
         {/* section heading */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
