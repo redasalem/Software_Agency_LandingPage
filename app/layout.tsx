@@ -9,10 +9,39 @@ const font = Rajdhani({
   subsets:['latin'],
 });
 
- export const metadata: Metadata = {
-      title: 'Software Landing Page',
-      description: 'This page titled Software Landing Page appears to be a homepage for a software-related site. It likely serves as the main entry point, introducing users to the software product or service. The minimal content—just Home and the title—suggests with a very simple layout'
-    };
+export const metadata: Metadata = {
+  title: 'AI Software Solutions | Cutting-Edge Artificial Intelligence for Businesses',
+  description:
+    'Discover next-generation AI software solutions that drive innovation, efficiency, and growth. Our expert team delivers cutting-edge artificial intelligence services tailored to businesses worldwide.',
+  keywords: [
+    'AI Software',
+    'Artificial Intelligence Solutions',
+    'Business Automation',
+    'Machine Learning',
+    'AI Company',
+    'AI Landing Page',
+    'Next.js AI',
+    'Tailwind AI',
+    'TypeScript AI'
+  ],
+  openGraph: {
+    title: 'AI Software Solutions | Cutting-Edge Artificial Intelligence for Businesses',
+    description:
+      'Unlock the power of AI with innovative solutions designed to transform your business. We deliver machine learning, automation, and custom AI tools.',
+    url: 'https://your-ai-company.com',
+    siteName: 'AI Software Solutions',
+    images: [
+      {
+        url: 'https://your-ai-company.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'AI Software Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  }
+};
 export default function RootLayout({
   children,
 }: Readonly<{

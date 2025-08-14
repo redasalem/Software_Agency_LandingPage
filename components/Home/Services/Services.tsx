@@ -8,7 +8,7 @@ const Services = () => {
         {/* section heading */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
           <div>
-             <h1 className='text-lg sm:text-xl md:text-2xl font-bold text-blue-700
+             <h1 className='text-lg sm:text-xl md:text-2xl font-bold text-red-500
           dark:text-pink-500 uppercase'>What We provide</h1>
           <h1 className='text-xl sm:text-3xl md:text-4xl mt-1 font-bold'>Provide high-quality AI solutions for business growth</h1>
           </div>
