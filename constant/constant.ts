@@ -16,8 +16,8 @@ export const Navlinks = [
     },
       {
         id:4,
-        url:'#Portfolio',
-        label:'Portfolio',
+        url:'#Projects',
+        label:'Projects',
     },
       {
         id:5,

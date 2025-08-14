@@ -48,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressContentEditableWarning>
+    <html lang="en" suppressContentEditableWarning={true}>
       <body
         className={`${font.className} antialiased scroll-smooth`}
       >
