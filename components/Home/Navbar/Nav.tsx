@@ -3,7 +3,7 @@ import ThemeToggler from '@/components/Helper/ThemeToggler'
 import { Navlinks } from '@/constant/constant'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { GrTechnology } from 'react-icons/gr'
+import { GiBrain } from 'react-icons/gi'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
 interface Navbar{
@@ -29,9 +29,9 @@ useEffect(() => {
     <div className={`transition-all ${navBg?"bg-blue-900 shadow-md":'fixed'} duration-200 h-[12vh] z-[100] fixed w-full`}>
         <div className='flex h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
             {/* logo */}
-            <div className='flex items-center space-x-2'>
-                <div className='w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center flex-col'>
-                    <GrTechnology className='w-6 h-6 text-white'/>
+            <div className='flex items-center space-x-2 gap-2'>
+                <div className='w-10 h-10 bg-fuchsia-500 rounded-full flex items-center justify-center flex-col'>
+                    <GiBrain className='w-6 h-6 text-white'/>
                 </div>
                 <h1 className='text-xl hidden sm:block md:text-2xl text-white font-bold'>Brain Ai</h1>
             </div>

@@ -6,6 +6,7 @@ import WhyChoose from './WhyChoose/WhyChoose'
 import Ai from './AI/Ai'
 import Projects from './Project/Projects'
 import Testimonials from './Testimonials/Testimonials'
+import Blog from './Blog/Blog'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Ai/>
       <Projects/>
       <Testimonials/>
+      <Blog/>
     </div>
   )
 }
