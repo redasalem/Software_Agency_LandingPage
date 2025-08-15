@@ -31,7 +31,7 @@ export const Navlinks = [
     },
      {
         id:7,
-        url:'#Contact',
+        url:'#footer',
         label:'Contact',
     }
 

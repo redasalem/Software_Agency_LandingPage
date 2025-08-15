@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className='w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10'>
         {/* نص المحتوى */}
-        <div>
+        <div data-aos='fade-up'>
           {/* subheading */}
           <p className='text-sm sm:text-base md:text-xl font-bold text-white'>
             Leading AI Solutions for Modern Businesses
@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
 
         {/* صورة */}
-        <div className='mx-auto hidden xl:block'>
+        <div data-aos='fade-down' data-aos-delay='150' className='mx-auto hidden xl:block'>
           <Image className='rounded-full' src='/images/aiImg.avif' alt='AI Hero' width={400} height={400} priority />
         </div>
       </div>

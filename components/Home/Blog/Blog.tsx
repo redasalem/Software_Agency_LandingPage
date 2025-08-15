@@ -17,17 +17,17 @@ const Blog = () => {
 
 </div>
 <div className='w-[80%] mt-16 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6'>
-    <div>
+    <div data-aos='fade-right'>
         <BlogCard image='/images/b1.png' 
         title='Unlock the potential of AI with insights that drive smarter decisions and innovative solutions'
         />
     </div>
-        <div>
+        <div data-aos='fade-right' data-aos-delay='100'>
         <BlogCard image='/images/b2.png' 
         title='Explore cutting-edge AI technologies transforming industries and shaping the future'
         />
     </div>
-        <div>
+        <div data-aos='fade-right' data-aos-delay='200'>
         <BlogCard image='/images/b3.png' 
         title='Stay ahead in AI trends, tutorials, and real-world applications for a smarter tomorrow'
         />

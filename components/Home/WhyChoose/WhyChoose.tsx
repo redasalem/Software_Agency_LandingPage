@@ -50,7 +50,7 @@ const WhyChoose = () => {
                 
             </div>
             {/* image content */}
-            <div className='w-full'>
+            <div className='w-full' data-aos='zoom-out' data-aos-anchor-placement='top-center'>
                 <Image
                 className='rounded-xl shadow-lg border-fuchsia-100 border-4'
                  src='/images/wc.png'

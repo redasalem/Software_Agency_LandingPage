@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         {/* services card */}
         <div className='grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-4 items-center mt-16'>
-          <div>
+          <div data-aos='fade-right' data-aos-anchor-placement='top-center'> 
             <ServicesCard
              image='/images/s1.png'
              title='AI-Powered Analytics'
@@ -28,7 +28,7 @@ const Services = () => {
              url='https://www.alteryx.com/?utm_source'
              />
           </div>
-           <div>
+           <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='100'>
             <ServicesCard
              image='/images/s2.png'
              title='Automated Workflow Solutions'
@@ -36,28 +36,28 @@ const Services = () => {
              url='https://n8n.io/?utm_source'
              />
           </div>
-           <div>
+           <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='200'>
             <ServicesCard
              image='/images/s3.png'
              title='Predictive Modeling'
              desc=' Forecast trends and optimize decisions using AI-driven predictions'
              url='https://h2o.ai/?utm_source'/>
           </div>
-           <div>
+           <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='300'>
             <ServicesCard
              image='/images/s4.png'
              title='Natural Language Processing'
              desc='Transform unstructured text into meaningful, actionable data'
              url='https://cloud.google.com/natural-language?utm_source'/>
           </div>
-           <div>
+           <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='400'>
             <ServicesCard
              image='/images/s5.png'
              title='Computer Vision Applications'
              desc='Enable smart visual recognition for enhanced operational efficiency'
              url='https://azure.microsoft.com/en-us/products/ai-services/ai-vision?utm_source'/>
           </div>
-           <div>
+           <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='500'>
             <ServicesCard
              image='/images/s6.png'
              title='Intelligent Customer Experience '

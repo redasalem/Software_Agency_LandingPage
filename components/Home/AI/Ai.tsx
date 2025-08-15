@@ -14,20 +14,20 @@ const Ai = () => {
 
         </div>
         <div className='w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10'>
-            <div>
+            <div data-aos='fade-up' data-aos-anchor-placement='top-center'>
                 <AiCard icon={<FaRobot className='h-20 w-20 text-purple-500' />} 
                 title='Intelligent Automation'
                 desc='Automate repetitive tasks and streamline workflows with AI-powered solutions, saving time and reducing human error while boosting overall efficiency.'
                 />
             </div>
-            <div>
+            <div data-aos='fade-up' data-aos-anchor-placement='top-center' data-aos-delay='100'>
                 <AiCard
                  icon={<FaChartLine className='h-20 w-20 text-lime-500' />} 
                  title='Predictive Insights'
                  desc='Leverage AI to analyze data trends and predict future outcomes, enabling your business to make informed, proactive decisions with confidence.'
                  />
             </div>
-            <div>
+            <div data-aos='fade-up' data-aos-anchor-placement='top-center' data-aos-delay='200'>
                 <AiCard icon={<FaComments className='h-20 w-20 text-pink-500'/>}
                   title='Natural Language Processing'
                   desc='Utilize advanced AI to understand, interpret, and generate human language, creating smarter, more engaging interactions with your users.'
